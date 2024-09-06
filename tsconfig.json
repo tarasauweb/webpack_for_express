@@ -1,5 +1,5 @@
 {
-    "compilerOptions": {
+  "compilerOptions": {
     "sourceMap": true,
     "outDir": "./dist/",
     "noImplicitAny": true,
@@ -8,6 +8,12 @@
     "allowJs": true,
     "moduleResolution": "node",
     "strict": true,
-    "allowSyntheticDefaultImports":true,
-    }
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
